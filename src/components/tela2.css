@@ -1,0 +1,59 @@
+.tela2 {
+    width: 390px;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('../assets/imagem2.png');
+    background-color: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .tela2 h1 {
+    font-family: inter;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #DADADA;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .tela2 h2 {
+    font-family: inter;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #DADADA;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .logo {
+    width: 196px; /* ajuste o tamanho do logo conforme necessário */
+    height: 59px;
+    top: 37px;
+    position: fixed;
+    /* outras propriedades de estilo... */
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 71px; /* Adicione este espaçamento para criar espaço entre os contêineres */
+  }
+  
+  .image-container {
+    /* Remova a margem-right: 71px; */
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+  }
+  
